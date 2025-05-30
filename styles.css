@@ -1,13 +1,12 @@
 body{
     border: black solid 5px;
-
 }
 
 
 .header{
-    background-color: white ;
-    /* border: black solid 2px; */
-    
+    background-color: #301934 ;
+    color: white;
+    /* border: black solid 2px; */ 
 }
 
 .layer1-header{
@@ -22,13 +21,15 @@ body{
     margin-right: 50px;
     flex-shrink: 0;
 }
+
 .layer1-header a{
-text-decoration: none;
-color : #301934;
-font: 18px Roboto ; 
+    text-decoration: none;
+    color : white;
+    font: 18px Roboto ; 
 }
+
 .header-logo{
-    color : black;
+    color : white;
     font: 18px Roboto ;
     display: flex;
     padding-top: 10px;
@@ -41,7 +42,7 @@ font: 18px Roboto ;
 
 .layer2-header .About-webpage{
     font: 14px Roboto ;
-    color : black;
+    color : white;
     margin-left: 50px;
     margin-top: 40px;
     margin-right: 60px;
@@ -57,9 +58,12 @@ font: 18px Roboto ;
     margin-top: 30px;
     margin-left: 200px;
     border: #301934 solid 2px;
-
+}
+.About-webpage a{
+    text-decoration: none;
 
 }
+ 
 
 .About-webpage h1{
     color: purple ;
@@ -75,7 +79,7 @@ green{
     color: #006400;
 }
 red{
-    color: #301934;
+    color: white;
 }
 
 .layer2-header img{
@@ -100,8 +104,9 @@ RIGHTRED{
     width: 220px;
     height: 200px;
     margin-top: 30px;
-    margin-right: 15px;
+    gap: 50px;
     margin-left: 15px;
+    border: solid #301934 2px ;
 }
 
 .products-display .product-description {
@@ -111,15 +116,15 @@ RIGHTRED{
     margin-bottom: 15px;
     margin-right: 15px;
     margin-left: 15px;
-    gap: 15px;
+    gap: 40px;
     justify-items: space-between;
 }
 .product-description button{
     width: 220px;
     height: 50px;
-    background-color: #b88a44;
+    background-color: purple;
     color: yellow;
-    border: brown;
+    border: #301934 solid 2px;
 
 }
 .product-description a{
@@ -130,7 +135,7 @@ RIGHTRED{
 
 .products-display h2{
     color: #006400;
-    margin-left: 400px;
+    margin-left: 600px;
     font: 30px ravie regular 900;  
 }
 
@@ -146,57 +151,74 @@ RIGHTRED{
     gap: 40px;
     margin-left: 40px;
     margin-right: 40px;
-
-
 }
 
 .card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    color: #301934;
+    border: #301934 solid 2px;
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
-    width: 200px;
-    height: 250px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 20px;
+    width: 1350px;
+    height: 300px;
     margin-bottom: 15px;
-    background-color: #C2B280;
+    font-weight: 900;
+    font-size: 13px ;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color:  #DAB1DA;
+}
+.card h4{
+    COLOR : purple;
 }
 
-.patriotism-images img{
-    width: 230px;
-    height: 220px;
-    margin-top: 30px;
-    margin-bottom:15px ;
-    margin-left: 30px;
-}
+
 
 .buy-fromus{
-    background-color: #FFFFE0; 
+    background-color: #F6CEFC; 
+    height: 450px;
     /* border: #BA8E23 solid 2px; */
 }
+.last-content{
+    background-color: white;
+
+}
 .call-for-action{
-    background-color: #d1ffbd;
-    /* border: #006400 solid 2px ; */
-    padding-top: 50px;
+    background-color: pink;
+    height: 150px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    border: #530000 solid 2px;
 }
 
 .call-for-action h3{
     margin-left: 260px;
-    color: darkgreen
+    color: #460000;
 }
+
 
 
 .call-for-action ul{
         list-style-type: none;
+        color: #530000;
 
 
 }
 .call-for-action button{
-    margin-left: 350px;
+    margin-left: 450px;
     margin-bottom: 15px;
-    background-color: green;
+    background-color: #ff474c;
     height: 30px;
+    color: #530000;
+
+
 
 }
 
@@ -208,4 +230,17 @@ RIGHTRED{
 .call-for-action li{
     margin-left: 100px;
 
+}
+
+
+footer{
+    background-color: #301934;
+    height: 30PX;
+    justify-items: center;
+}
+
+footer .copyright{
+    display: flex;
+    color: white;
+    padding-top: 5px;
 }
